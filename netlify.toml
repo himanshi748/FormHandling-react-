@@ -1,0 +1,11 @@
+package = "@newrelic/netlify-plugin"
+
+  [plugins.inputs]
+    newrelicAccountId = "3657062"
+    newrelicLicenseKey = "90ee0218e2eabba7329418a5084d4dff5a75NRAL"
+    newrelicBrowserLicenseKey = "NRJS-6a2e03b4eab48bd5c87"
+    newrelicAppId = "594445589"
+    enableBrowserMonitoring = "true"
+    skipEvent.onError = "true"
+    distributedTracingEnabled = "true"
+    skipEvent.onEnd =   "true"
